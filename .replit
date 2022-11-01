@@ -1,0 +1,4 @@
+run = ["go run", "./reader xkcd.json \"can't sleep\""]
+
+[packager]
+language = "go"

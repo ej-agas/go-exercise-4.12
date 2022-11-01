@@ -70,5 +70,5 @@ outer:
 		count++
 	}
 
-	fmt.Printf("found %d comic(s)", count)
+	fmt.Printf("found %d comic(s)\n", count)
 }
