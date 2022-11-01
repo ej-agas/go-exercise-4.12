@@ -1,4 +1,7 @@
-run = ["go", "run", "./reader xkcd.json \"can't sleep\""]
+run = ["go", "run", "./reader", "xkcd.json", "electric sheep"]
 
 [packager]
 language = "go"
+
+[nix]
+channel = "stable-21_11"
